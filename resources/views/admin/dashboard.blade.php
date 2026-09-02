@@ -66,6 +66,9 @@
     <td class="py-3"><span class="rounded-full bg-emerald-100 px-3 py-1 text-emerald-700">Ativo</span></td>
 </tr>
 
+@php
+    $users = App\Models\User::all();
+@endphp
 {{-- Próximas aulas: Registros dinâmicos com Blade e Eloquent --}}
 @foreach ($users as $user)
     <tr class="border-b border-slate-100">
