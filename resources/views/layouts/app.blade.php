@@ -10,7 +10,7 @@
 
 <body>
 
-    <header class="mb-6 rounded-2xl border border-slate-200 bg-white/90 px-5 py-4 shadow-sm backdrop-blur">
+    <!-- <header class="mb-6 rounded-2xl border border-slate-200 bg-white/90 px-5 py-4 shadow-sm backdrop-blur">
         <div class="flex flex-wrap items-center justify-between gap-3">
             <a href="#" class="text-lg font-black tracking-tight text-slate-900">NovaWave</a>
             <nav class="flex flex-wrap items-center gap-2 text-sm">
@@ -20,9 +20,13 @@
                     class="rounded-lg px-3 py-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900">Diferenciais</a>
                 <a href="#contato"
                     class="rounded-lg px-3 py-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900">Contato</a>
+
             </nav>
         </div>
-    </header>
+ 
+</nav>
+   
+    </header> -->
 
     <main class="container mx-auto-my-8 px-4">
         @yield('content')

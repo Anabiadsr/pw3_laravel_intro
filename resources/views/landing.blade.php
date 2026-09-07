@@ -9,7 +9,8 @@
         <nav class="flex flex-wrap items-center gap-2 text-sm">
             <a href="#funcionalidades" class="rounded-lg px-3 py-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900">Funcionalidades</a>
             <a href="#diferenciais" class="rounded-lg px-3 py-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900">Diferenciais</a>
-            <a href="#contato" class="rounded-lg px-3 py-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900">Contato</a>
+            <a href="/contato" class="rounded-lg px-3 py-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900">Contato</a>
+            <a href="/sobre" class="rounded-lg px-3 py-2 text-slate-600 hover:bg-slate-100">Sobre</a>
         </nav>
     </div>
 </header>
@@ -30,8 +31,9 @@
         </p>
         <div class="mt-8 flex flex-wrap gap-3">
             <a href="#funcionalidades" class="rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-slate-900 hover:bg-cyan-300">Ver funcionalidades</a>
-            <a href="#contato" class="rounded-xl border border-slate-500 px-6 py-3 font-semibold text-slate-100 hover:bg-slate-800">Falar com a equipe</a>
+            <a href="/equipe" class="rounded-xl border border-slate-500 px-6 py-3 font-semibold text-slate-100 hover:bg-slate-800">Falar com a equipe</a>
         </div>
+    
     </div>
 </section>
 
@@ -83,12 +85,8 @@
         Apresente seu projeto com uma landing page bem estruturada e preparada para evoluir.
     </p>
     <div class="mt-6 flex flex-wrap gap-3">
-        <a href="#" class="rounded-xl bg-slate-900 px-6 py-3 font-semibold text-white hover:bg-slate-700">Solicitar demonstração</a>
+        <a href="/usuarios/novo" class="rounded-xl bg-slate-900 px-6 py-3 font-semibold text-white hover:bg-slate-700">Solicitar demostração</a>
         <a href="#" class="rounded-xl border border-slate-300 px-6 py-3 font-semibold text-slate-700 hover:bg-slate-100">Ver documentação</a>
     </div>
 </section>
 
-<footer class="mt-8 rounded-xl bg-slate-900 px-6 py-5 text-sm text-slate-300">
-    <p>© {{ date('Y') }} NovaWave. Todos os direitos reservados.</p>
-</footer>
-@endsection

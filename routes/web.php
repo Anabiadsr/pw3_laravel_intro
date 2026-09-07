@@ -16,6 +16,15 @@ Route::get('/usuarios/novo', [UserController::class, 'create']);
 
 Route::post('usuarios', [UserController::class, 'store']);
 
+Route::get('/sobre', function () {
+    return view('sobre.sobre');
+});
+Route::get('/equipe', function () {
+    return view('equipe.equipe');
+});
+Route::get('/contato', function () {
+    return view('contato.contato');
+});
 Route::get('/teste-orm', function () {
     User::create([
         'name' => 'Ana Clara Santos',
@@ -24,10 +33,6 @@ Route::get('/teste-orm', function () {
     ]);
     return User::all();
 });
-
-
-
-
 
 Route::get('/livros', [LivroController::class, 'index']);
 
